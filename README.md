@@ -1,10 +1,10 @@
-# 400kPa MAP Adapter board for Jaguar 0.4-alpha to 0.7-alpha PCBs
+# SSOP-8 MAP Adapter board for Jaguar 0.4-alpha to 0.7-alpha PCBs
 
 JAG 06/15/2014 1417 EDT (GMT-0400)
 
 ### Introduction
 
-This adapter board allows the use of the Freescale MPXH6400AC6 SSOP-8 (Super Small Outline Package) pressure sensors to be used for the MAP sensor on the Jaguar 0.4-alpha to 0.7-alpha PCBs using the three through hole pads marked "5v", "GND" and "MAP". 
+This adapter board allows the use of the Freescale SSOP-8 (Super Small Outline Package) pressure sensors to be used for the MAP sensor on the Jaguar 0.4-alpha to 0.7-alpha PCBs using the three through hole pads marked "5v", "GND" and "MAP". 
 
 Please see forum.diyefi.org for the most up to date information and links for this project and all of the other aspects of the FreeEMS project.
 
