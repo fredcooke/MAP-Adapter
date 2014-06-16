@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sun 15 Jun 2014 10:21:58 PM EDT
+
+BeginCmp
+TimeStamp = /539E53C4;
+Reference = U1;
+ValeurCmp = SOP8;
+IdModule  = 8-SOP;
+EndCmp
+
+BeginCmp
+TimeStamp = /539BCE53;
+Reference = U6;
+ValeurCmp = SSOP8;
+IdModule  = SSOP-8-Freescale;
+EndCmp
+
+EndListe
