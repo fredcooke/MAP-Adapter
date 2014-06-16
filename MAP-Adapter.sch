@@ -1,44 +1,13 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:Jaguar
-LIBS:mpxa4250ap
-LIBS:Jaguar-cache
+LIBS:MAP-Adapter
+LIBS:MAP-Adapter-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "noname.sch"
-Date "14 jun 2014"
+Title "MAP-Adapter.sch"
+Date "16 jun 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -57,6 +26,18 @@ F 3 "~" H 4650 3400 60  0000 C CNN
 	1    4650 3400
 	1    0    0    -1  
 $EndComp
+Text Label 5300 3500 0    60   ~ 0
+5Vdc
+Text Label 5300 3300 0    60   ~ 0
+GND
+Text Label 5300 3100 0    60   ~ 0
+MAP
+Text Label 5950 3200 0    60   ~ 0
+5Vdc
+Text Label 5950 3300 0    60   ~ 0
+GND
+Text Label 5950 3400 0    60   ~ 0
+MAP
 $Comp
 L CONN_3 J1
 U 1 1 539BCE62
@@ -68,30 +49,18 @@ F 3 "" H 6550 3300 60  0000 C CNN
 	1    6550 3300
 	1    0    0    -1  
 $EndComp
-Text Label 5300 3500 0    60   ~ 0
-5Vdc
-Text Label 5300 3300 0    60   ~ 0
-GND
-Text Label 5300 3100 0    60   ~ 0
-MAP
-Text Label 5950 3400 0    60   ~ 0
-MAP
-Text Label 5950 3300 0    60   ~ 0
-GND
-Text Label 5950 3200 0    60   ~ 0
-5Vdc
 Wire Wire Line
-	6200 3200 5950 3200
-Wire Wire Line
-	6200 3300 5950 3300
-Wire Wire Line
-	6200 3400 5950 3400
-Wire Wire Line
-	5300 3500 5500 3500
+	5300 3100 5500 3100
 Wire Wire Line
 	5300 3300 5500 3300
 Wire Wire Line
-	5300 3100 5500 3100
+	5300 3500 5500 3500
+Wire Wire Line
+	6200 3400 5950 3400
+Wire Wire Line
+	6200 3300 5950 3300
+Wire Wire Line
+	6200 3200 5950 3200
 NoConn ~ 5300 3700
 NoConn ~ 4000 3700
 NoConn ~ 4000 3500

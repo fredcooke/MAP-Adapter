@@ -1,0 +1,85 @@
+PCBNEW-LibModule-V1  Sun 15 Jun 2014 10:08:07 PM EDT
+# encoding utf-8
+Units mm
+$INDEX
+SSOP-8-Freescale
+$EndINDEX
+$MODULE SSOP-8-Freescale
+Po 0 0 0 15 539BCA4B 00000000 ~~
+Li SSOP-8-Freescale
+Sc 0
+AR /539BCE53
+Op 0 0 0
+T0 0.6 3.4 1 1 0 0.1016 N V 21 N "U6"
+T1 -2 -3.8 0.7 0.7 0 0.1016 N V 21 N "MPXH6400AC6"
+DC 0 0 2.15 0.41 0.15 21
+DC 3.52 2.05 3.32 1.92 0.15 21
+DS 3.98 2.51 3.98 -2.51 0.15 21
+DS 3.98 -2.51 -3.98 -2.51 0.15 21
+DS -3.98 -2.51 -3.98 2.51 0.15 21
+DS -3.98 2.51 3.98 2.51 0.15 21
+DC 0 0 1.51892 0 0.127 21
+$PAD
+Sh "1" R 1.35 0.69 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.915 1.905
+$EndPAD
+$PAD
+Sh "2" R 1.35 0.69 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "/5Vdc"
+Po 4.915 0.635
+$EndPAD
+$PAD
+Sh "3" R 1.35 0.69 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "/GND"
+Po 4.915 -0.635
+$EndPAD
+$PAD
+Sh "4" R 1.35 0.69 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "/MAP"
+Po 4.915 -1.905
+$EndPAD
+$PAD
+Sh "5" R 1.35 0.69 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.915 -1.905
+$EndPAD
+$PAD
+Sh "6" R 1.35 0.69 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.915 -0.635
+$EndPAD
+$PAD
+Sh "7" R 1.35 0.69 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.915 0.635
+$EndPAD
+$PAD
+Sh "8" R 1.35 0.69 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.915 1.905
+$EndPAD
+$SHAPE3D
+Na "walter/smd_leds/cree_mc-e.wrl"
+Sc 1 0.85 1.4
+Of 0 0 0
+Ro 0 0 180
+$EndSHAPE3D
+$EndMODULE SSOP-8-Freescale
+$EndLIBRARY

@@ -136,11 +136,6 @@
       (layers *.Cu *.Mask B.SilkS)
       (net 3 /MAP)
     )
-    (model pin_array/pins_array_3x1.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module SSOP-8-Freescale (layer F.Cu) (tedit 539BCA4B) (tstamp 539BCBF9)
@@ -185,11 +180,6 @@
     )
     (pad 8 smd rect (at -4.915 1.905) (size 1.35 0.69)
       (layers F.Cu F.Paste F.Mask)
-    )
-    (model walter/smd_leds/cree_mc-e.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 0.85 1.4))
-      (rotate (xyz 0 0 180))
     )
   )
 
